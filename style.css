@@ -8,4 +8,5 @@ div{
     height: 100px;
     position: absolute;
     background: red;
+    margin: 10px 10px 10px 10px;
 }
