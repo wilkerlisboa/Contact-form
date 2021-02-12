@@ -7,7 +7,7 @@
 body{
     background: white;
 }
-
+/*Title*/
 h1{
     margin: 100px 0px 0px 297px;
     color: white;
@@ -16,6 +16,7 @@ h1{
     font-size: xxx-large;
 }
 
+/*Rec*/
 #body{
     width: 100%;
     height: 531px;
@@ -25,7 +26,7 @@ h1{
     box-shadow: 0px 0 19px -2px rgb(0 0 0 / 70%);
 }
 
-
+/*Email Box*/
 #Email{
     width: 279px;
     height: 30px;
@@ -37,10 +38,12 @@ h1{
     font-size: medium;
 }
 
+/*Title Inside Email Box*/
 #Email::placeholder{
     color: white;
 }
 
+/*Line Below The Email Box*/
 .line{
     width: 272px;
     height: 4px;
@@ -50,6 +53,7 @@ h1{
     position: absolute;
 }
 
+/*Password Box*/
 #Password{
     width: 279px;
     height: 30px;
@@ -62,10 +66,12 @@ h1{
     font-size: medium;
 }
 
+/*Title Inside Password Box*/
 #Password::placeholder{
     color: white;
 }
 
+/*Line Below The Password Box */
 .line-02{
     width: 272px;
     height: 4px;
@@ -75,6 +81,7 @@ h1{
     position: absolute;
 }
 
+/*Button*/
 #button{
     width: 72px;
     height: 30px;
@@ -87,8 +94,8 @@ h1{
     cursor: pointer;
 }
 
-
-.box{
+/*Image*/
+.img{
     width: 482px;
     height: 390px;
     background: url(./Img/image1.png);
