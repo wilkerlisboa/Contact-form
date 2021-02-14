@@ -81,11 +81,37 @@ h1{
     position: absolute;
 }
 
+#text{
+    width: 271px;
+    height: 70px;
+    border-radius: 8px;
+    border-style: double;
+    border-color: white;
+    margin: 365px 0px 0px -280px;
+    background: blueviolet;
+    position: absolute;
+    color: white;
+    font-size: medium;
+}
+
+#text::placeholder{
+    color: white;
+}
+
+.line-03{
+    width: 272px;
+    height: 4px;
+    border-radius: 2px;
+    background: white;
+    margin: 83px 0px 0px 253px;
+    position: absolute;
+}
+
 /*Button*/
 #button{
     width: 72px;
     height: 30px;
-    margin: 407px 0px 0px -184px;
+    margin: 471px 0px 0px -184px;
     background: white;
     border-style: none;
     box-shadow: 0px 0px 26px 1px white;
